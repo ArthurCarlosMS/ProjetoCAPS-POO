@@ -1,0 +1,20 @@
+public class Terapia {
+    private String descricao;
+    private int idTerapia;
+
+    public int getIdTerapia() {
+        return idTerapia;
+    }
+
+    public void setIdTerapia(int id) {
+        this.idTerapia = id;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+}
